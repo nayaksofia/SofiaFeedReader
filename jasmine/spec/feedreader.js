@@ -73,8 +73,8 @@ $(function () {
     /* A new test suite named "Initial Entries" */
     describe('Initial Entries', function () {
 
-        /* Call a Jasmine's beforeEach to do an asynchronous done() function.
-         */
+        /* Call a Jasmine's beforeEach to do an asynchronous done() function.*/
+
         beforeEach(function (done) {
             loadFeed(0, function () {
                 done();
@@ -84,7 +84,7 @@ $(function () {
         /* A test that ensures when the loadFeed
          * function is called and completes its work, there is at least
          * a single .entry element within the .feed container.
-         * */
+         */
         it('completes work', function () {
             expect($('.feed .entry').length).toBeGreaterThan(0);
         });
@@ -115,7 +115,6 @@ $(function () {
 
         it('is different from first feed (content changes)', function () {
             expect($('.feed').html()).not.toBe(firstFeed);
-
         });
 
     });
