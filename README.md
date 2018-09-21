@@ -11,7 +11,7 @@ Testing is an important part of the development process and many organizations p
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
 ## How to run the application?
- Download the [Feed Reader Testing From Here](). And Open the *index.html* in a browser. 
+ Download the *repository* [Feed Reader Testing From Here](https://github.com/nayaksofia/SofiaFeedReader). And Open the *index.html* in a browser. 
 
 
 ## What will I learn?
